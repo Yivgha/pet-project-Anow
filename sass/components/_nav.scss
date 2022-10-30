@@ -1,0 +1,31 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    // justify-content:space-between;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+        justify-content: space-between;
+        margin-left: 210px;
+}
+
+.nav-item{
+    position: relative;
+    font-weight: 400;
+        font-size: 15px;
+        line-height: 0.09;
+        letter-spacing: 0.2px;
+            text-transform: lowercase;
+            color: #222222;
+    margin-right: 33px;
+    &:last-child{
+        margin-right: 0;
+    }
+        &:hover,
+        &:focus,
+        &:active{
+            color: #FD8558;
+        }
+}

@@ -2,10 +2,18 @@
     background-color: #000000;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
+        url(../../images/body-1-1x.png),
+        url(../../images/body-2-1x.png),
+        url(../../images/body-3-1x.png),
+        url(../../images/body-4-1x.png),
+        url(../../images/body-5-1x.png),
         url(../../images/bg-1x.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center, right top, right, right bottom, left top, left bottom;
+    background-size: cover, 183px, 34px, 936px, 433px, 50px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-origin: border-box;
+    // width: 100vw;
+    // height: 100vh;
     min-width: 100%;
     text-align: center;
     margin-left: 0;
