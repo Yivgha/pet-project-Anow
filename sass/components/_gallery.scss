@@ -1,0 +1,59 @@
+.gallery{
+    display: flex;
+    flex: 1, 2, 1;
+    align-content: stretch;
+}
+.areaA{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 115px;
+}
+.areaB{
+    display: flex;
+    align-content: stretch;
+}
+.areaC{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.gallery-small-item{
+    height: 360px;
+    width: 360px;
+}
+.gallery-big-item{
+    height: 720px;
+    width: 720px;
+}
+.gallery-overlay{
+    display: flex;
+    position: absolute;
+    width: 320px;
+    height: 126px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 0px;
+    transform: translate(20px, -150%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+
+    .areaB &{
+       width:680px;
+    }
+}
+.gallery-text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.38;
+    color: #222222;
+    text-align: center;
+    padding: auto;
+}
+.checkbox{
+    height: 46px;
+    width: 46px;
+    color: #ffffff;
+    border: 2px solid #222222;
+}

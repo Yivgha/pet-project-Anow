@@ -4,14 +4,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 105px;
+    padding: 0 120px;
 }
 .about-item{
     margin-right: 16px;
     justify-content: center;
     align-items: center;
-    &:last-child{
-        margin-right: 0;
-    }
+    padding: 10px 21px 16px 21px;
 }
 .about-block{
     display: flex;
@@ -25,6 +24,7 @@ font-size: 24px;
 line-height: 1.6;
 color: #333333;
 text-align: center;
+margin-bottom: 17px;
 }
 
 .about-text{
@@ -48,7 +48,9 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 105px;
 }
+
 .about-heading{
     font-weight: 400;
         font-size: 14px;
@@ -74,14 +76,16 @@ text-align: center;
 }
 .about-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex: 2fr 1fr;
     align-items: center;
     margin-top: 85px;
+    padding: 0 120px;
 }
 .about-quoting{
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    padding: 55px 0 39px 50px;
 }
 .about-italic{
     font-weight: 400;
