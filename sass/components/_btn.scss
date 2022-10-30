@@ -1,0 +1,27 @@
+.btn {
+    font-size: 15px;
+    line-height:2;
+        letter-spacing: normal;
+        font-weight: 400;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    height:56px;
+    width: 154px;
+    border: transparent;
+    color: #ffffff;
+    background-color: #FD8558;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus{
+        margin: auto;
+        padding: auto;
+        background-color: #000000;
+        border:#FD8558;
+    }
+}
