@@ -975,4 +975,8 @@ address {
   text-align: center;
   letter-spacing: 0.3px;
   color: #FFFFFF;
+}
+.copyright-link:hover {
+  font-weight: bold;
+  color: #FD8558;
 }/*# sourceMappingURL=main.css.map */
