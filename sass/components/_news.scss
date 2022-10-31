@@ -36,6 +36,8 @@
 }
 .news-attributes{
     margin-top: 28px;
+    width: 360px;
+    height: 192px;
 }
 .news-genre{
     display: flex;
@@ -47,7 +49,7 @@
     font-size: 15px;
     line-height: 1.4;
     color: #FD8558;
-    margin-right: 5px;
+    margin-right: 10px;
     &:last-child{
         margin-right: 0;
     }
@@ -62,9 +64,9 @@
 .news-text{
     font-weight: 400;
     font-size: 24px;
-    line-height: 1.3;
+    line-height: 1.38;
     color: #222222;
-    margin-bottom: 36px;
+    margin-bottom: 36px;    
 }
 .news-link{
 font-weight: 400;
