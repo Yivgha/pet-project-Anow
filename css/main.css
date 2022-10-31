@@ -302,11 +302,38 @@ address {
   color: #CACACA;
 }
 
+.portfolio-decorations {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.left-rectangle {
+  position: absolute;
+  background: #F5F5F5;
+  border-radius: 0px;
+  width: 606px;
+  height: 2px;
+  left: 39px;
+}
+
+.right-rectangle {
+  position: absolute;
+  background: #F5F5F5;
+  border-radius: 0px;
+  width: 606px;
+  height: 2px;
+  right: 39px;
+}
+
 .portfolio-svg {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .portfolio-review {
@@ -339,6 +366,7 @@ address {
   line-height: 0.9;
   text-align: right;
   color: #F7F7F7;
+  margin-right: 30px;
 }
 
 .big-title-testiimonials {
@@ -819,6 +847,7 @@ address {
 .footer-logo-column {
   display: flex;
   flex-direction: column;
+  padding-right: 70px;
 }
 
 .footer-logo {
@@ -879,15 +908,19 @@ address {
   margin-bottom: 19px;
 }
 
+.blog-list-item {
+  margin-bottom: 9px;
+  width: 156px;
+}
+.blog-list-item:last-child {
+  margin-bottom: 0;
+}
+
 .footer-list-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
   color: #BABABA;
-  margin-bottom: 9px;
-}
-.footer-list-text:last-child {
-  margin-bottom: 0;
 }
 
 .copyright {
