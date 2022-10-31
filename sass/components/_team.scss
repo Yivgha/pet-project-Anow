@@ -122,14 +122,17 @@ margin-right: 30px;
 }
 .team-overlay{
     display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
     flex-direction: column;
     position: absolute;
-    width: 320px;
-    height: 126px;
-    border-radius: 0px;
-    transform: translate(20px, -150%);
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
     margin-bottom: 80px;
+    overflow: hidden;
+    transform: translateY(17%);
 }
 .team-member-name{
     font-weight: 400;
