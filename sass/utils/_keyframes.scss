@@ -24,13 +24,33 @@
         transform: rotateY(360deg);
     }
 }
+@keyframes rotateHero{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+// @keyframes glow {
+//     from {
+//         text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+//     }
+
+//     to {
+//         text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+//     }
+// }
 
 @keyframes glow {
-    from {
-        text-shadow: 0 0 10px var(--accent-text-color), 0 0 20px var(--accent-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
-    }
 
-    to {
-        text-shadow: 0 0 20px var(--main-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
-    }
+    from,
+        to {
+            filter: blur(0px);
+        }
+    
+        50% {
+            filter: blur(80px);
+        }
 }
