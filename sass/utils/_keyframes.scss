@@ -1,0 +1,36 @@
+@keyframes pulse-black {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(253, 133, 88, 0.8);
+    }
+
+    50% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(253, 133, 88, 0.75);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(253, 133, 88, 0.8);
+    }
+}
+
+@keyframes rotateLogo {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px var(--accent-text-color), 0 0 20px var(--accent-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
+    }
+
+    to {
+        text-shadow: 0 0 20px var(--main-text-color), 0 0 30px var(--accent-text-color), 0 0 40px var(--accent-text-color);
+    }
+}

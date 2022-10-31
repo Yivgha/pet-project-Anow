@@ -33,13 +33,15 @@
     padding: auto;
 }
 .hero-btns{
-    display: flex;
+display: flex;
     justify-content: center;
-
-    .btn{
+}
+.left-btn{
+        animation: pulse-black 2500ms linear infinite;
+        outline: none;
         margin-right: 30px;
-        &:last-child{
-            margin-right: 0;
-        }
-    }
+}
+.right-btn{
+        animation: pulse-black 2500ms linear infinite;
+        outline: none;
 }
