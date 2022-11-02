@@ -22,14 +22,12 @@
         background-repeat: no-repeat;
         background-size: cover;
         }
-                &__child {
-                    position: fixed;
-        
-                    background-repeat: no-repeat;
-                    backface-visibility: hidden;
-                    opacity: .8;
-        
-                    &--primary {
+        &__child {
+            position: fixed;
+            background-repeat: no-repeat;
+             // backface-visibility: hidden;
+            opacity: 0.8;     
+            &--primary {
                         top: 80px;
                         right: 150px;
                         width: 183px;
@@ -38,7 +36,7 @@
                         animation: rotateHero 5s linear infinite;
                     }
         
-                    &--secondary {     
+            &--secondary {     
                     top: 380px;
                     right: 50px;
                     width: 34px;
@@ -48,21 +46,21 @@
                         filter: blur(0);
                         fill: #fff;
                     }
-                    &--third{
+            &--third{
                     bottom: -450px;
                     right: -250px;
                     width: 936px;
                     height: 583px;
                     background-image: url(" ../../images/body-5-1x.png");
                     }
-                    &--fourth{
+            &--fourth{
                     top: 0;
                     left: 0;
                     width: 433px;
                     height: 433px;
                     background-image: url("../../images/body-4-1x.png");
                     }
-                    &--fifth{
+            &--fifth{
                     bottom: 80px;
                     left: 10px;
                     width: 50px;
