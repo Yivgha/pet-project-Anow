@@ -234,6 +234,7 @@ address {
 .hero__child {
   position: fixed;
   background-repeat: no-repeat;
+  backface-visibility: hidden;
   opacity: 0.8;
 }
 .hero__child--primary {
