@@ -17,6 +17,10 @@
     line-height: 1.3;
     color: #FFFFFF;
     margin-bottom: 17px;
+    &:hover,
+    &:focus {
+        color: #FD8558;
+    }
 }
 .footer-contacts-list{
     display: flex;
@@ -30,9 +34,13 @@
 }
 .footer-link{
     font-weight: 400;
-        font-size: 15px;
-        line-height: 1.5;
-        color: rgba(255, 255, 255, 0.6);
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.6);
+        &:hover,
+        &:focus {
+            color: #FD8558;
+        }
 }
 .footer-span{
     margin-left: 10px;
@@ -64,16 +72,20 @@
 .blog-list-item{
 margin-bottom: 9px;
 width: 156px;
-
     &:last-child {
         margin-bottom: 0;
     }
+    
 }
 .footer-list-text{
     font-weight: 400;
         font-size: 14px;
         line-height: 1.4;
         color: #BABABA;
+        &:hover,
+        &:focus {
+            color: #FD8558;
+        }
 }
 .copyright{
     font-weight: 400;
@@ -83,17 +95,18 @@ width: 156px;
     letter-spacing: 0.3px;
     color: #BABABA;
 }
+
 .copyright-link{
     font-weight: 400;
     font-size: 15px;
     line-height: 2;
     text-align: center;
     letter-spacing: 0.3px;
-    color: #FFFFFF;
-    &:hover{
-    font-weight: bold;
-    color: #FD8558;;
-    }
+    color: #FFFFFF; 
+        &:hover, &:focus {
+            color: #FD8558;
+        }
+    
 }
 .footer-socials{
     display: flex;

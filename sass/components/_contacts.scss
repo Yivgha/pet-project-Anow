@@ -27,6 +27,10 @@
     font-size: 24px;
     line-height: 1.38;
     color: #222222;
+    &:hover,
+    &:focus {
+    color: #FD8558;
+    }
 }
 
 #form-name, #form-email{
@@ -46,9 +50,13 @@
     margin-right: 0;
    }
     &:active, &:focus, &:hover {
-            border: 1px solid #EEEEEE;
+            border: 1px solid #FD8558;
             outline: none;
+            &::placeholder {
+                    color: #FD8558;
+                }
         }
+                
 }
 
 #form-textarea{
@@ -68,8 +76,11 @@
     overflow: auto;
     appearance: none;
     &:active, &:focus, &:hover{
-        border: 1px solid #EEEEEE;
+        border: 1px solid #FD8558;
         outline: none;
+        &::placeholder {
+                color: #FD8558;
+            }
     }
     &::placeholder{
         top: 0;
