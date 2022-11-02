@@ -38,45 +38,45 @@
                         z-index: 2;
                     }
         
-        //     &--secondary {     
-        //             top: 380px;
-        //             right: 50px;
-        //             width: 34px;
-        //             height: 34px;
-        //             background-image: url("../../images/body-2-1x.png");
-        //             animation: glow 1.5s linear infinite;
-        //                 filter: blur(0);
-        //                 fill: #fff;
-        //                 z-index: 3;
-        //             }
-        //     &--third{
-        //             bottom: -450px;
-        //             right: -250px;
-        //             width: 936px;
-        //             height: 583px;
-        //             background-image: url(" ../../images/body-5-1x.png");
-        //             z-index: 4;
-        //             }
-        //     &--fourth{
-        //             top: 0;
-        //             left: 0;
-        //             width: 433px;
-        //             height: 433px;
-        //             background-image: url("../../images/body-4-1x.png");
-        //             z-index: 5;
-        //             }
-        //     &--fifth{
-        //             bottom: 80px;
-        //             left: 10px;
-        //             width: 50px;
-        //             height: 50px;
-        //             background-image: url("../../images/body-3-1x.png");
-        //             animation: glow 1.5s linear infinite;
-        //             filter: blur(0);
-        //             fill: #fff;
-        //             z-index: 6;
-        //             }
-        //         }
+            &--secondary {     
+                    top: 380px;
+                    right: 50px;
+                    width: 34px;
+                    height: 34px;
+                    background-image: url("./../images/body-2-1x.png");
+                    animation: glow 1.5s linear infinite;
+                        filter: blur(0);
+                        fill: #fff;
+                        z-index: 3;
+                    }
+            &--third{
+                    bottom: -450px;
+                    right: -250px;
+                    width: 936px;
+                    height: 583px;
+                    background-image: url("./../images/body-5-1x.png");
+                    z-index: 4;
+                    }
+            &--fourth{
+                    top: 0;
+                    left: 0;
+                    width: 433px;
+                    height: 433px;
+                    background-image: url("./../images/body-4-1x.png");
+                    z-index: 5;
+                    }
+            &--fifth{
+                    bottom: 80px;
+                    left: 10px;
+                    width: 50px;
+                    height: 50px;
+                    background-image: url("./../images/body-3-1x.png");
+                    animation: glow 1.5s linear infinite;
+                    filter: blur(0);
+                    fill: #fff;
+                    z-index: 6;
+                    }
+                }
         &__title {
             position: absolute;
             font-size: 70px;
