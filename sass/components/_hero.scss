@@ -22,57 +22,57 @@
         background-repeat: no-repeat;
         background-size: cover;
         }
-                &__child {
-                    position: fixed;
+                // &__child {
+                //     position: fixed;
         
-                    background-repeat: no-repeat;
-                    backface-visibility: hidden;
-                    opacity: .8;
+                //     background-repeat: no-repeat;
+                //     backface-visibility: hidden;
+                //     opacity: .8;
         
-                    &--primary {
-                        top: 80px;
-                        right: 150px;
-                        width: 183px;
-                        height: 183px;
-                        background-image: url(../../images/body-1-1x.png);
-                        animation: rotateHero 5s linear infinite;
-                    }
+                //     &--primary {
+                //         top: 80px;
+                //         right: 150px;
+                //         width: 183px;
+                //         height: 183px;
+                //         background-image: url(../../images/body-1-1x.png);
+                //         animation: rotateHero 5s linear infinite;
+                //     }
         
-                    &--secondary {     
-                    top: 380px;
-                    right: 50px;
-                    width: 34px;
-                    height: 34px;
-                    background-image: url(../../images/body-2-1x.png);
-                    animation: glow 1.5s linear infinite;
-                        filter: blur(0);
-                        fill: #fff;
-                    }
-                    &--third{
-                    bottom: -450px;
-                    right: -250px;
-                    width: 936px;
-                    height: 583px;
-                    background-image: url( ../../images/body-5-1x.png);
-                    }
-                    &--fourth{
-                    top: 0;
-                    left: 0;
-                    width: 433px;
-                    height: 433px;
-                    background-image: url(../../images/body-4-1x.png);
-                    }
-                    &--fifth{
-                    bottom: 80px;
-                    left: 10px;
-                    width: 50px;
-                    height: 50px;
-                    background-image: url(../../images/body-3-1x.png);
-                    animation: glow 1.5s linear infinite;
-                    filter: blur(0);
-                    fill: #fff;
-                    }
-                }
+                //     &--secondary {     
+                //     top: 380px;
+                //     right: 50px;
+                //     width: 34px;
+                //     height: 34px;
+                //     background-image: url(../../images/body-2-1x.png);
+                //     animation: glow 1.5s linear infinite;
+                //         filter: blur(0);
+                //         fill: #fff;
+                //     }
+                //     &--third{
+                //     bottom: -450px;
+                //     right: -250px;
+                //     width: 936px;
+                //     height: 583px;
+                //     background-image: url( ../../images/body-5-1x.png);
+                //     }
+                //     &--fourth{
+                //     top: 0;
+                //     left: 0;
+                //     width: 433px;
+                //     height: 433px;
+                //     background-image: url(../../images/body-4-1x.png);
+                //     }
+                //     &--fifth{
+                //     bottom: 80px;
+                //     left: 10px;
+                //     width: 50px;
+                //     height: 50px;
+                //     background-image: url(../../images/body-3-1x.png);
+                //     animation: glow 1.5s linear infinite;
+                //     filter: blur(0);
+                //     fill: #fff;
+                //     }
+                // }
         &__title {
             position: absolute;
             font-size: 70px;
