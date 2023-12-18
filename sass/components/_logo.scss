@@ -1,17 +1,12 @@
 .logo{
-    color: #222222;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 1.6;
-    letter-spacing: 1.1px;
-    text-transform: lowercase;
-    margin-left: 86px;
-    padding-top: 6px;
-    padding-bottom: 23px;
     display: block;
+    color: var(--smooth-black);
+    @include font(28px, 1.6, 1.1px, 700);
+    text-transform: lowercase;    
     animation: rotateLogo 3s linear infinite;
+
     &:hover,
     &:focus {
-    color: #FD8558;
+    color: var(--primary-orange);
     }
 }

@@ -1,16 +1,28 @@
-let mybutton = document.getElementById("myBtn");
+const mybutton = document.querySelector(".scroll-up-btn");
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollfunction();
+};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+function scrollfunction() {
+  if (
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
+  ) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
   }
 }
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+mybutton.addEventListener("click", function () {
+  window.scrollTo({
+    left: 0,
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  mybutton.style.display = "none";
+});
