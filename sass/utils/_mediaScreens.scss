@@ -244,6 +244,44 @@ form{
 .form-textarea{
   margin-bottom: 50px;
 }
+.footer{
+    padding: 90px 150px 80px 150px;
+}
+.footer-wrapper{
+  flex-direction: row;
+}
+.footer-logo-column{
+    flex-direction: column;
+    padding-right: 70px;
+}
+.footer-logo{
+    font-size: 40px;
+}
+.footer-contacts-list{
+    flex-direction: row;
+}
+.blog-lists{
+    flex-direction: row;
+    margin-left: 90px;
+    padding-bottom: 30px;
+}
+.home-list{
+      flex-direction: column;
+    margin-right: 90px;
+    &:last-child {
+            margin-right: 0;
+        }
+}
+.footer-title{
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+.blog-list-item{ 
+  width: 156px;
+}
+.copyright{
+      margin-top: 60px;
+}
 }
 // TABLET
 @media screen and (min-width: 768px) and (max-width: 1059px) {
@@ -483,6 +521,43 @@ form{
 .form-textarea{
   margin-bottom: 30px;
 }
+//FOOTER
+.footer{
+    padding: 25px 40px;
+}
+.footer-wrapper{
+  flex-direction: column;
+}
+.footer-logo-column{
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.footer-logo{
+    font-size: 30px;
+}
+.footer-contacts-list{
+    flex-direction: row;
+}
+.blog-lists{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.home-list{
+  flex-direction: column;
+}
+.footer-title{
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+.blog-list-item{ 
+  width: 100%;
+}
+.copyright{
+      margin-top: 50px;
+      padding: 0 40px;
+}
 }
 // MOBILE
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -708,5 +783,42 @@ form{
 }
 .form-textarea{
   margin-bottom: 30px;
+}
+//FOOTER
+.footer{
+    padding: 20px 30px;
+}
+.footer-wrapper{
+  flex-direction: column;
+}
+.footer-logo-column{
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.footer-logo{
+    font-size: 30px;
+}
+.footer-contacts-list{
+    flex-direction: row;
+}
+.blog-lists{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.home-list{
+  flex-direction: column;
+}
+.footer-title{
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+.blog-list-item{ 
+  width: 100%;
+}
+.copyright{
+      margin-top: 50px;
+      padding: 0 40px;
 }
 }
