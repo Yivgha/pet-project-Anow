@@ -1,9 +1,13 @@
 .btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    text-align: center;
     font-size: 15px;
     line-height:2;
     font-weight: 400;
-    text-align: center;
+    text-transform: uppercase;
     border: transparent;
     color: var(--primary-white);
     background-color: var(--primary-orange);

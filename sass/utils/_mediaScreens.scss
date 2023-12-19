@@ -61,6 +61,68 @@
     height:56px;
     width: 154px;
   }
+  .about-list{
+    flex-direction: row;
+    padding: 0 120px;
+    margin-top: 105px;
+  }
+  .about-item{
+    margin-right: 16px;
+    padding: 10px 21px 16px 21px;
+    
+}
+.about-title{
+font-size: 24px;
+margin-bottom: 17px;
+}
+.big-title-about{
+        font-size: 200px;
+        margin-bottom: 13px;
+        margin-top: 52px;
+        margin-left: 30px;
+}
+.about-random-texts{
+  flex-direction: row;
+    gap: 30px;
+    padding: 0 105px;
+}
+.about-heading{
+        font-size: 14px;
+        margin-bottom: 34px;
+}
+.about-name{
+        font-size: 40px;
+}
+.about-article{
+        font-size: 18px;
+        margin-bottom: 11px;
+}
+.about-italic{
+        font-size: 15px;
+}
+.about-section{
+  flex-direction: row;
+    margin-top: 85px;
+    padding: 0 120px;
+}
+.about-img{
+width: 100%;
+max-width: 1440px;
+}
+.about-quoting{
+    padding: 55px 0 39px 50px;
+}
+.about-quote{
+    font-size: 26px;
+    margin-bottom: 56px;
+}
+.about-author{
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+.about-position{
+      font-size: 12px;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1059px) {
@@ -123,6 +185,67 @@
     height:56px;
     width: 154px;
   }
+   .about-list{
+    flex-direction: row;
+    padding: 0 50px;
+    margin-top: 85px;
+  }
+  .about-item{
+    margin-right: 18px;
+    padding: 10px 5px;
+}
+.about-title{
+font-size: 21px;
+margin-bottom: 15px;
+}
+.big-title-about{
+        font-size: 200px;
+        margin-bottom: 10px;
+        margin-top: 32px;
+        margin-left: 20px;
+}
+.about-random-texts{
+    flex-direction: row;
+    gap: 40px;
+    padding: 0 65px;
+}
+.about-heading{
+        font-size: 14px;
+        margin-bottom: 24px;
+}
+.about-name{
+        font-size: 30px;
+}
+.about-article{
+        font-size: 18px;
+        margin-bottom: 13px;
+}
+.about-italic{
+        font-size: 13px;
+}
+.about-section{
+  flex-direction: row;
+    margin-top: 65px;
+    padding: 0 15px;
+}
+.about-img{
+width: 100%;
+max-width: 768px;
+}
+.about-quoting{
+    padding: 0 0 0 40px;
+}
+.about-quote{
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+.about-author{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.about-position{
+      font-size: 12px;
+}
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -136,7 +259,7 @@
   }
   .hero__child--primary {
     top: 80px;
-    left: 290px;
+    left: 150px;
     width: 183px;
     height: 183px;
   }
@@ -162,8 +285,72 @@
   .hero--left__btn{
     margin-right: 15px;
   }
-    .btn{
+   .btn{
     height:46px;
-    width: 114px;
+    width: 154px;
   }
+   .about-list{
+    flex-direction: column;
+    padding: 0 35px;
+    margin-top: 45px;
+  }
+  .about-item{
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 5px 8px;
+}
+.about-title{
+font-size: 18px;
+margin-bottom: 13px;
+}
+.big-title-about{
+        font-size: 100px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        margin-left: 5px;
+}
+.about-random-texts{
+  flex-direction: column;
+    gap: 10px;
+    padding: 0 15px;
+}
+.about-heading{
+        font-size: 10px;
+        margin-bottom: 14px;
+}
+.about-name{
+        font-size: 25px;
+        margin-bottom: 15px;
+}
+.about-article{
+        font-size: 14px;
+        margin-bottom: 15px;
+}
+.about-italic{
+        font-size: 14px;
+}
+.about-section{
+  flex-direction: column;
+    margin-top: 60px;
+    padding: 0;
+}
+.about-img{
+width: 100%;
+max-width: 480px;
+}
+.about-quoting{
+  margin-top: 50px;
+    padding: 0 15px 0 30px;
+}
+.about-quote{
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+.about-author{
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.about-position{
+    font-size: 10px;
+}
 }

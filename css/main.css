@@ -3,6 +3,10 @@
   --primary-orange: #fd8558;
   --smooth-black: #222222;
   --primary-white: #FFFFFF;
+  --about-us-title: #333333;
+  --about-us-text: #999999;
+  --big-section-title: #F7F7F7;
+  --quote-text: #CACACA;
 }
 
 body, header {
@@ -112,6 +116,67 @@ body, header {
     height: 56px;
     width: 154px;
   }
+  .about-list {
+    flex-direction: row;
+    padding: 0 120px;
+    margin-top: 105px;
+  }
+  .about-item {
+    margin-right: 16px;
+    padding: 10px 21px 16px 21px;
+  }
+  .about-title {
+    font-size: 24px;
+    margin-bottom: 17px;
+  }
+  .big-title-about {
+    font-size: 200px;
+    margin-bottom: 13px;
+    margin-top: 52px;
+    margin-left: 30px;
+  }
+  .about-random-texts {
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 105px;
+  }
+  .about-heading {
+    font-size: 14px;
+    margin-bottom: 34px;
+  }
+  .about-name {
+    font-size: 40px;
+  }
+  .about-article {
+    font-size: 18px;
+    margin-bottom: 11px;
+  }
+  .about-italic {
+    font-size: 15px;
+  }
+  .about-section {
+    flex-direction: row;
+    margin-top: 85px;
+    padding: 0 120px;
+  }
+  .about-img {
+    width: 100%;
+    max-width: 1440px;
+  }
+  .about-quoting {
+    padding: 55px 0 39px 50px;
+  }
+  .about-quote {
+    font-size: 26px;
+    margin-bottom: 56px;
+  }
+  .about-author {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .about-position {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1059px) {
   .nav-list {
@@ -173,6 +238,67 @@ body, header {
     height: 56px;
     width: 154px;
   }
+  .about-list {
+    flex-direction: row;
+    padding: 0 50px;
+    margin-top: 85px;
+  }
+  .about-item {
+    margin-right: 18px;
+    padding: 10px 5px;
+  }
+  .about-title {
+    font-size: 21px;
+    margin-bottom: 15px;
+  }
+  .big-title-about {
+    font-size: 200px;
+    margin-bottom: 10px;
+    margin-top: 32px;
+    margin-left: 20px;
+  }
+  .about-random-texts {
+    flex-direction: row;
+    gap: 40px;
+    padding: 0 65px;
+  }
+  .about-heading {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .about-name {
+    font-size: 30px;
+  }
+  .about-article {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  .about-italic {
+    font-size: 13px;
+  }
+  .about-section {
+    flex-direction: row;
+    margin-top: 65px;
+    padding: 0 15px;
+  }
+  .about-img {
+    width: 100%;
+    max-width: 768px;
+  }
+  .about-quoting {
+    padding: 0 0 0 40px;
+  }
+  .about-quote {
+    font-size: 20px;
+    margin-bottom: 36px;
+  }
+  .about-author {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .about-position {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-list {
@@ -185,7 +311,7 @@ body, header {
   }
   .hero__child--primary {
     top: 80px;
-    left: 290px;
+    left: 150px;
     width: 183px;
     height: 183px;
   }
@@ -213,15 +339,83 @@ body, header {
   }
   .btn {
     height: 46px;
-    width: 114px;
+    width: 154px;
+  }
+  .about-list {
+    flex-direction: column;
+    padding: 0 35px;
+    margin-top: 45px;
+  }
+  .about-item {
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding: 5px 8px;
+  }
+  .about-title {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  .big-title-about {
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+  .about-random-texts {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 15px;
+  }
+  .about-heading {
+    font-size: 10px;
+    margin-bottom: 14px;
+  }
+  .about-name {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-article {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .about-italic {
+    font-size: 14px;
+  }
+  .about-section {
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 0;
+  }
+  .about-img {
+    width: 100%;
+    max-width: 480px;
+  }
+  .about-quoting {
+    margin-top: 50px;
+    padding: 0 15px 0 30px;
+  }
+  .about-quote {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .about-author {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .about-position {
+    font-size: 10px;
   }
 }
 .btn {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  text-align: center;
   font-size: 15px;
   line-height: 2;
   font-weight: 400;
-  text-align: center;
+  text-transform: uppercase;
   border: transparent;
   color: var(--primary-white);
   background-color: var(--primary-orange);
@@ -462,18 +656,19 @@ address {
 
 .about-list {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 105px;
-  padding: 0 120px;
+  margin-bottom: 100px;
 }
 
 .about-item {
-  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 21px 16px 21px;
+}
+.about-item:last-child {
+  margin-right: 0;
 }
 
 .about-block {
@@ -483,12 +678,11 @@ address {
 }
 
 .about-title {
+  text-transform: capitalize;
   font-weight: 400;
-  font-size: 24px;
   line-height: 1.6;
-  color: #333333;
+  color: var(--about-us-title);
   text-align: center;
-  margin-bottom: 17px;
 }
 
 .about-text {
@@ -496,105 +690,82 @@ address {
   font-size: 15px;
   line-height: 1.7;
   text-align: center;
-  color: #999999;
-  margin-bottom: 100px;
+  color: var(--about-us-text);
 }
 
 .big-title-about {
   font-weight: 400;
-  font-size: 200px;
   line-height: 0.9;
   text-align: left;
-  color: #F7F7F7;
-  margin-bottom: 13px;
-  margin-top: 52px;
+  color: var(--big-section-title);
 }
 
 .about-random-texts {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 105px;
 }
 
 .about-heading {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #FD8558;
-  margin-bottom: 34px;
+  color: var(--primary-orange);
 }
 
 .about-name {
   font-weight: 400;
-  font-size: 40px;
   line-height: 1.35;
-  color: #333333;
+  color: var(--about-us-title);
 }
 
 .about-article {
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.56;
   text-transform: capitalize;
-  color: #222222;
-  margin-bottom: 11px;
+  color: var(--smooth-black);
+}
+
+.about-italic {
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--about-us-text);
 }
 
 .about-section {
   display: flex;
   justify-content: space-evenly;
-  flex: 2fr 1fr;
   align-items: center;
-  margin-top: 85px;
-  padding: 0 120px;
 }
 
 .about-quoting {
   display: flex;
   flex-direction: column;
-  padding: 55px 0 39px 50px;
-}
-
-.about-italic {
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #999999;
 }
 
 .about-quote {
   font-weight: 400;
-  font-size: 26px;
   line-height: 1.73;
-  color: #222222;
-  margin-bottom: 56px;
+  color: var(--smooth-black);
 }
 
 .about-middle-quote {
   font-style: italic;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.73;
-  color: #FD8558;
+  color: var(--primary-orange);
 }
 
 .about-author {
   font-weight: 400;
-  font-size: 20px;
   line-height: 1;
-  color: #222222;
-  margin-bottom: 14px;
+  color: var(--smooth-black);
 }
 
 .about-position {
   font-weight: 400;
-  font-size: 12px;
   line-height: 1.8;
   letter-spacing: 1.8px;
-  color: #CACACA;
+  color: var(--quote-text);
 }
 
 .portfolio-decorations {

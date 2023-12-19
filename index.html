@@ -41,13 +41,18 @@
                 <div class="hero__child hero__child--fifth"></div>
                 <h1 class="hero__title">design is thinking made visual</h1>
                 <ul class="hero__btns">
-                    <button type="button" class="btn hero--left__btn">Start now</button>
-                    <button type="button" class="btn hero--right__btn">See more</button>
+                    <a href="#about">
+                        <button type="button" class="btn hero--left__btn">
+                            Start now
+                        </button>
+                    </a>
+                    <a href="#portfolio">
+                        <button type="button" class="btn hero--right__btn">See more</button></a>
                 </ul>
             </div>
         </section>
-        <section id="about">
 
+        <section id="about">
             <p class="big-title-about">about</p>
             <div class="about-random-texts">
                 <div>
@@ -72,11 +77,10 @@
                 </div>
             </div>
             <div class="about-section">
-                <picture>
-                    <source srcset="./images/about-us-1x.jpg 1x, ./images/about-us-2x.jpg 2x"
-                        media="(min-width: 1200px)" />
-                    <img src="./images/about-us-1x.jpg" alt="corridor in coworking" />
-                </picture>
+                <img srcset="./images/about-us-1x.jpg 480w, ./images/about-us-2x.jpg 768w, ./images/about-us-2x.jpg 1200w"
+                    sizes="(max-width: 1600px) 480px,
+                         768w" src="./images/about-us-2x.jpg" alt="corridor in coworking" class="about-img" />
+
                 <div class="about-quoting">
                     <p class="about-quote">“Our mission is to produce the <span class="about-middle-quote">highest
                             quality</span> work for every clients, on
@@ -87,51 +91,49 @@
                     <p class="about-position">ART DIRECTOR PAO</p>
                 </div>
             </div>
-            <div>
-                <ul class="about-list">
-                    <li class="about-item">
-                        <div class="about-block">
-                            <svg class="svg" width="65px" height="85px">
-                                <use href="./images/icons.svg#icon-about-1" />
-                            </svg>
-                        </div>
-                        <h3 class="about-title">digital solutions</h3>
-                        <p class="about-text">If you need to redesign your new project, new visual strategy, ux
-                            structure or you do
-                            have some cool ideas for
-                            collaboration
-                        </p>
-                    </li>
-                    <li class="about-item">
-                        <div class="about-block">
-                            <svg class="svg" width="65px" height="85px">
-                                <use href="./images/icons.svg#icon-about-2" />
-                            </svg>
-                        </div>
-                        <h3 class="about-title">creative strategy</h3>
-                        <p class="about-text">If you need to redesign your new project, new visual strategy, ux
-                            structure or you do have
-                            some cool ideas for
-                            collaboration</p>
-                    </li>
-                    <li class="about-item">
-                        <div class="about-block">
-                            <svg class="svg" width="65px" height="85px">
-                                <use href="./images/icons.svg#icon-about-3" />
-                            </svg>
-                        </div>
-                        <h3 class="about-title">integrated marketing</h3>
-                        <p class="about-text">If you need to redesign your new project, new visual strategy, ux
-                            structure or you do have
-                            some cool ideas for
-                            collaboration</p>
-                    </li>
-                </ul>
-            </div>
 
+            <ul class="about-list">
+                <li class="about-item">
+                    <div class="about-block">
+                        <svg class="svg" width="65px" height="85px">
+                            <use href="./images/icons.svg#icon-about-1" />
+                        </svg>
+                    </div>
+                    <h3 class="about-title">digital solutions</h3>
+                    <p class="about-text">If you need to redesign your new project, new visual strategy, ux
+                        structure or you do
+                        have some cool ideas for
+                        collaboration
+                    </p>
+                </li>
+                <li class="about-item">
+                    <div class="about-block">
+                        <svg class="svg" width="65px" height="85px">
+                            <use href="./images/icons.svg#icon-about-2" />
+                        </svg>
+                    </div>
+                    <h3 class="about-title">creative strategy</h3>
+                    <p class="about-text">If you need to redesign your new project, new visual strategy, ux
+                        structure or you do have
+                        some cool ideas for
+                        collaboration</p>
+                </li>
+                <li class="about-item">
+                    <div class="about-block">
+                        <svg class="svg" width="65px" height="85px">
+                            <use href="./images/icons.svg#icon-about-3" />
+                        </svg>
+                    </div>
+                    <h3 class="about-title">integrated marketing</h3>
+                    <p class="about-text">If you need to redesign your new project, new visual strategy, ux
+                        structure or you do have
+                        some cool ideas for
+                        collaboration</p>
+                </li>
+            </ul>
         </section>
-        <section id="portfolio">
 
+        <section id="portfolio">
             <div class="portfolio-decorations">
                 <div class="left-rectangle"></div>
                 <div class="portfolio-svg">
@@ -146,7 +148,7 @@
                     <h2 class="portfolio-title">latest works</h2>
                     <p class="portfolio-text">take a look around our portfolio.</p>
                 </div>
-                <button type="button" class="btn">View more</button>
+                <a href="#team"><button type="button" class="btn">View more</button></a>
             </div>
             <p class="big-title-portfolio">works</p>
             <div>
@@ -265,7 +267,7 @@
                             </div>
                         </li>
                     </ul>
-                    <!-- <button type="button" class="skills-btn" onclick="move()">Test our skills!</button> -->
+
                 </div>
             </div>
             <div class="team-wrapper">
@@ -399,7 +401,7 @@
                         </div>
                     </li>
                 </ul>
-                <button type="button" class="btn">Start work</button>
+                <a href="#contact"><button type="button" class="btn">Start work</button></a>
             </div>
 
         </section>
