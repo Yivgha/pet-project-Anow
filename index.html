@@ -411,11 +411,10 @@
                     an
                     advertising design.</p>
                 <div class="testimonials-box">
-                    <picture>
-                        <source srcset="./images/testimonials-1x.png 1x, ./images/testimonials-2x.png 2x"
-                            media="(min-width: 1200px)" />
-                        <img src="./images/testimonials-1x.png" alt="Sophie Nguyen" class="test-pic" />
-                    </picture>
+                    <img srcset="./images/testimonials-1x.png 480w, ./images/testimonials-2x.png 768w, ./images/testimonials-2x.png 1200w"
+                        sizes="(max-width: 1600px) 480px, 768w" src="./images/testimonials-2x.png" alt="Sophie Nguyen"
+                        class="test-pic" />
+
                     <div clas="testimonials-texts">
                         <p class="testimonials-name">Sophie Nguyen</p>
                         <p class="testimonials-position">CEO</p>
@@ -425,16 +424,16 @@
 
         </section>
         <section id="news" class="news">
-
-            <h2 class="news-heading">THE DAILY PLANET</h2>
-            <p class="news-lead">our interactive news</p>
+            <div>
+                <h2 class="news-heading">THE DAILY PLANET</h2>
+                <p class="news-lead">our interactive news</p>
+            </div>
             <ul class="news-list">
                 <li class="news-item">
-                    <picture>
-                        <source srcset="./images/news-1-1x.jpg 1x, ./images/news-1-2x.jpg 2x"
-                            media="(min-width: 1200px)" />
-                        <img src="./images/news-1-1x.jpg" alt="mountains" />
-                    </picture>
+                    <img srcset="./images/news-1-1x.jpg 480w, ./images/news-1-2x.jpg 768w, ./images/news-1-2x.jpg 1200w"
+                        sizes="(max-width: 1600px) 480px, 768w" src="./images/news-1-2x.jpg" alt="mountains"
+                        class="about-img" />
+
                     <div class="news-attributes">
                         <ul class="news-genre">
                             <li class="news-type"><a href="#" onclick="return false;" class="news-link">lifestyle</a>
@@ -450,11 +449,10 @@
                     </div>
                 </li>
                 <li class="news-item">
-                    <picture>
-                        <source srcset="./images/news-2-1x.jpg 1x, ./images/news-2-2x.jpg 2x"
-                            media="(min-width: 1200px)" />
-                        <img src="./images/news-2-1x.jpg" alt="girl in bed" />
-                    </picture>
+                    <img srcset="./images/news-2-1x.jpg 480w, ./images/news-2-2x.jpg 768w, ./images/news-2-2x.jpg 1200w"
+                        sizes="(max-width: 1600px) 480px, 768w" src="./images/news-2-2x.jpg" alt="girl in bed"
+                        class="about-img" />
+
                     <div class="news-attributes">
                         <ul class="news-genre">
                             <li class="news-type"><a href="#" onclick="return false;" class="news-link">lifestyle</a>
@@ -470,11 +468,10 @@
                     </div>
                 </li>
                 <li class="news-item">
-                    <picture>
-                        <source srcset="./images/news-3-1x.jpg 1x, ./images/news-3-2x.jpg 2x"
-                            media="(min-width: 1200px)" />
-                        <img src="./images/news-3-1x.jpg" alt="girl on bicycle" />
-                    </picture>
+                    <img srcset="./images/news-3-1x.jpg 480w, ./images/news-3-2x.jpg 768w, ./images/news-3-2x.jpg 1200w"
+                        sizes="(max-width: 1600px) 480px, 768w" src="./images/news-3-2x.jpg" alt="girl on bicycle"
+                        class="about-img" />
+
                     <div class="news-attributes">
                         <ul class="news-genre">
                             <li class="news-type"><a href="#" onclick="return false;" class="news-link">lifestyle</a>
@@ -507,14 +504,14 @@
                 <div>
                     <form>
                         <div>
-                            <input type="text" id="form-name" placeholder="Your name*" required>
-                            <input type="email" id="form-email" placeholder="Your e-mail*" required>
+                            <input type="text" id="form-name" placeholder="Your name*" required class="form-input">
+                            <input type="email" id="form-email" placeholder="Your e-mail*" required class="form-input">
                         </div>
                         <div>
-                            <textarea type="textarea" id="form-textarea" placeholder="Your message*"
-                                required></textarea>
+                            <textarea type="textarea" id="form-textarea" placeholder="Your message*" required
+                                class="form-textarea"></textarea>
                         </div>
-                        <button type="submit" onclick="return false;" class="btn">Send message</button>
+                        <button type="submit" onclick="return false;" class="btn">Send</button>
                     </form>
                 </div>
             </div>

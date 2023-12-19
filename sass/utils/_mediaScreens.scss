@@ -1,3 +1,4 @@
+// PC
 @media screen and (min-width: 1060px) {
   .nav-list {
     margin-left: 210px;
@@ -86,11 +87,11 @@ margin-bottom: 17px;
     gap: 30px;
     padding: 0 105px;
 }
-.about-heading, .portfolio-title, .team-title, .team-group-title{
+.about-heading, .portfolio-title, .team-title, .team-group-title, .news-heading{
         font-size: 14px;
         margin-bottom: 34px;
 }
-.about-name, .portfolio-text, .team-text, .team-capital{
+.about-name, .portfolio-text, .team-text, .team-capital, .news-lead{
         font-size: 40px;
 }
 .about-article, .team-article{
@@ -191,8 +192,60 @@ margin-bottom: 30px;
     width: 350px;
     height: 350px;
 }
+.big-title-testiimonials{
+  font-size: 200px;
 }
-
+.testimonials{
+  padding: 70px 120px 180px 120px; 
+}
+.testimonials-quote{
+  font-size: 18px;
+}
+.news{
+   padding: 10px 120px 115px 120px;
+}
+.news-list{
+    flex-direction: row;
+    padding: 10px 15px 0 15px;
+    gap: 30px;
+}
+.news-item{
+  width: 360px;
+}
+.news-attributes{
+    width: 360px;
+}
+.news-text{
+  font-size: 24px;
+}
+.contact-wrapper{
+    flex-direction: row;
+    padding: 0 135px;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: flex-start;
+}
+.contact{
+padding: 0 35px;
+}
+.contact-text, .contact-link{
+font-size: 24px;
+}
+form{
+  width: 55vw;
+  padding: 0 35px;
+}
+.form-input{
+   width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.form-textarea{
+  margin-bottom: 50px;
+}
+}
+// TABLET
 @media screen and (min-width: 768px) and (max-width: 1059px) {
   .nav-list {
     display: flex;
@@ -277,11 +330,11 @@ margin-bottom: 15px;
     gap: 40px;
     padding: 0 65px;
 }
-.about-heading, .portfolio-title,.team-title, .team-group-title{
+.about-heading, .portfolio-title,.team-title, .team-group-title, .news-heading{
         font-size: 14px;
         margin-bottom: 24px;
 }
-.about-name, .portfolio-text, .team-text, .team-capital{
+.about-name, .portfolio-text, .team-text, .team-capital, .news-lead{
         font-size: 30px;
 }
 .about-article, .team-article{
@@ -380,8 +433,58 @@ margin-bottom: 15px;
     width: 350px;
     height: 350px;
 }
+.big-title-testiimonials{
+  font-size: 130px;
 }
-
+.testimonials{
+  padding: 50px 60px; 
+}
+.testimonials-quote{
+  font-size: 16px;
+}
+.news{
+   padding: 10px 60px;
+}
+.news-list{
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 35px;
+}
+.news-item{
+  width: 300px;
+  margin-bottom: 30px;
+}
+.news-attributes{
+    width: 300px;
+}
+.news-text{
+  font-size: 18px;
+}
+.contact-wrapper{
+    flex-direction: row;
+    padding: 0 35px;
+}
+.contact{
+padding: 0 35px;
+}
+.contact-text, .contact-link{
+font-size: 18px;
+}
+form{
+  width: 100%;
+  padding: 0 15px;
+}
+.form-input{
+   width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.form-textarea{
+  margin-bottom: 30px;
+}
+}
+// MOBILE
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-list {
     display: none;
@@ -448,11 +551,11 @@ margin-bottom: 13px;
     gap: 10px;
     padding: 0 15px;
 }
-.about-heading, .portfolio-title, .team-title, .team-group-title{
+.about-heading, .portfolio-title, .team-title, .team-group-title, .news-heading{
         font-size: 10px;
         margin-bottom: 14px;
 }
-.about-name, .portfolio-text, .team-text, .team-capital{
+.about-name, .portfolio-text, .team-text, .team-capital, .news-lead{
         font-size: 25px;
         margin-bottom: 15px;
 }
@@ -554,5 +657,56 @@ margin-bottom: 15px;
     height: 300px;
     min-width: 100%;
     min-height: 100%;
+}
+.big-title-testiimonials{
+  font-size: 50px;
+}
+.testimonials{
+  padding: 30px; 
+}
+.testimonials-quote{
+  font-size: 14px;
+}
+.news{
+   padding: 10px;
+}
+.news-list{
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+}
+.news-item{
+  width: 300px;
+  margin-bottom: 30px;
+}
+.news-attributes{
+    width: 100%;
+}
+.news-text{
+  font-size: 18px;
+}
+.contact-wrapper{
+    flex-direction: column;
+}
+.contact{
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.contact-text, .contact-link{
+font-size: 18px;
+}
+form{
+  width: 100%;
+  padding: 0 15px;
+}
+.form-input{
+   width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.form-textarea{
+  margin-bottom: 30px;
 }
 }

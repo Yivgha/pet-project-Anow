@@ -10,6 +10,8 @@
   --portfolio-decor-color: #F5F5F5;
   --progress-bar-skills: #e9ecef;
   --team-member-position: #FCFCFC;
+  --bg-tstimonials: #3A0F73;
+  --form-border: #EEEEEE;
 }
 
 body, header {
@@ -143,11 +145,11 @@ body, header {
     gap: 30px;
     padding: 0 105px;
   }
-  .about-heading, .portfolio-title, .team-title, .team-group-title {
+  .about-heading, .portfolio-title, .team-title, .team-group-title, .news-heading {
     font-size: 14px;
     margin-bottom: 34px;
   }
-  .about-name, .portfolio-text, .team-text, .team-capital {
+  .about-name, .portfolio-text, .team-text, .team-capital, .news-lead {
     font-size: 40px;
   }
   .about-article, .team-article {
@@ -246,6 +248,58 @@ body, header {
     width: 350px;
     height: 350px;
   }
+  .big-title-testiimonials {
+    font-size: 200px;
+  }
+  .testimonials {
+    padding: 70px 120px 180px 120px;
+  }
+  .testimonials-quote {
+    font-size: 18px;
+  }
+  .news {
+    padding: 10px 120px 115px 120px;
+  }
+  .news-list {
+    flex-direction: row;
+    padding: 10px 15px 0 15px;
+    gap: 30px;
+  }
+  .news-item {
+    width: 360px;
+  }
+  .news-attributes {
+    width: 360px;
+  }
+  .news-text {
+    font-size: 24px;
+  }
+  .contact-wrapper {
+    flex-direction: row;
+    padding: 0 135px;
+    justify-content: space-between;
+    gap: 150px;
+    align-items: flex-start;
+  }
+  .contact {
+    padding: 0 35px;
+  }
+  .contact-text, .contact-link {
+    font-size: 24px;
+  }
+  form {
+    width: 55vw;
+    padding: 0 35px;
+  }
+  .form-input {
+    width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .form-textarea {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1059px) {
   .nav-list {
@@ -331,11 +385,11 @@ body, header {
     gap: 40px;
     padding: 0 65px;
   }
-  .about-heading, .portfolio-title, .team-title, .team-group-title {
+  .about-heading, .portfolio-title, .team-title, .team-group-title, .news-heading {
     font-size: 14px;
     margin-bottom: 24px;
   }
-  .about-name, .portfolio-text, .team-text, .team-capital {
+  .about-name, .portfolio-text, .team-text, .team-capital, .news-lead {
     font-size: 30px;
   }
   .about-article, .team-article {
@@ -433,6 +487,56 @@ body, header {
     width: 350px;
     height: 350px;
   }
+  .big-title-testiimonials {
+    font-size: 130px;
+  }
+  .testimonials {
+    padding: 50px 60px;
+  }
+  .testimonials-quote {
+    font-size: 16px;
+  }
+  .news {
+    padding: 10px 60px;
+  }
+  .news-list {
+    flex-wrap: wrap;
+    padding: 10px 0;
+    gap: 35px;
+  }
+  .news-item {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .news-attributes {
+    width: 300px;
+  }
+  .news-text {
+    font-size: 18px;
+  }
+  .contact-wrapper {
+    flex-direction: row;
+    padding: 0 35px;
+  }
+  .contact {
+    padding: 0 35px;
+  }
+  .contact-text, .contact-link {
+    font-size: 18px;
+  }
+  form {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .form-input {
+    width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .form-textarea {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-list {
@@ -500,11 +604,11 @@ body, header {
     gap: 10px;
     padding: 0 15px;
   }
-  .about-heading, .portfolio-title, .team-title, .team-group-title {
+  .about-heading, .portfolio-title, .team-title, .team-group-title, .news-heading {
     font-size: 10px;
     margin-bottom: 14px;
   }
-  .about-name, .portfolio-text, .team-text, .team-capital {
+  .about-name, .portfolio-text, .team-text, .team-capital, .news-lead {
     font-size: 25px;
     margin-bottom: 15px;
   }
@@ -605,6 +709,57 @@ body, header {
     height: 300px;
     min-width: 100%;
     min-height: 100%;
+  }
+  .big-title-testiimonials {
+    font-size: 50px;
+  }
+  .testimonials {
+    padding: 30px;
+  }
+  .testimonials-quote {
+    font-size: 14px;
+  }
+  .news {
+    padding: 10px;
+  }
+  .news-list {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px 0;
+    gap: 10px;
+  }
+  .news-item {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+  .news-attributes {
+    width: 100%;
+  }
+  .news-text {
+    font-size: 18px;
+  }
+  .contact-wrapper {
+    flex-direction: column;
+  }
+  .contact {
+    margin-bottom: 30px;
+    padding: 0 15px;
+  }
+  .contact-text, .contact-link {
+    font-size: 18px;
+  }
+  form {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .form-input {
+    width: 100%;
+    height: 58px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+  }
+  .form-textarea {
+    margin-bottom: 30px;
   }
 }
 .btn {
@@ -732,12 +887,12 @@ address {
 }
 
 .btn-up-icon {
-  fill: #000000;
+  fill: var(--primary-text-color);
   width: 50px;
   height: 50px;
 }
 .btn-up-icon:hover {
-  fill: #FD8558;
+  fill: var(--primary-orange);
 }
 
 .logo {
@@ -1035,7 +1190,6 @@ address {
 
 .big-title-testiimonials {
   font-weight: 400;
-  font-size: 200px;
   line-height: 1.1;
   text-align: center;
   color: rgba(170, 170, 170, 0.1);
@@ -1043,8 +1197,7 @@ address {
 }
 
 .testimonials {
-  background-color: #3A0F73;
-  padding: 70px 120px 180px 120px;
+  background-color: var(--bg-tstimonials);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1053,11 +1206,10 @@ address {
 
 .testimonials-quote {
   font-weight: 400;
-  font-size: 18px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #FFFFFF;
+  color: var(--primary-white);
   margin-bottom: 64px;
 }
 
@@ -1070,6 +1222,7 @@ address {
 
 .test-pic {
   filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.08));
+  border-radius: 10px;
 }
 
 .testimonials-texts {
@@ -1082,14 +1235,14 @@ address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.6;
-  color: #FFFFFF;
+  color: var(--primary-white);
 }
 
 .testimonials-position {
   font-weight: 400;
   font-size: 13px;
   line-height: 1.72;
-  color: #FFFFFF;
+  color: var(--primary-white);
   padding-bottom: 12px;
 }
 
@@ -1264,50 +1417,37 @@ address {
 }
 
 .news {
-  padding: 10px 120px 115px 120px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .news-heading {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #FD8558;
-  margin-bottom: 47px;
+  color: var(--primary-orange);
+  margin-bottom: 16px;
 }
 
 .news-lead {
   font-weight: 400;
-  font-size: 32px;
   line-height: 1.3;
   text-align: center;
-  color: #222222;
-  margin-bottom: 16px;
+  color: var(--smooth-black);
+  margin-bottom: 47px;
 }
 
 .news-list {
   display: flex;
-  flex-direction: row;
-  padding: 10px 15px 0 15px;
-}
-
-.news-item {
-  flex-direction: column;
-  margin-right: 30px;
-}
-.news-item:last-child {
-  margin-right: 0;
+  margin-bottom: 40px;
 }
 
 .news-attributes {
   margin-top: 28px;
-  width: 360px;
-  height: 192px;
 }
 
 .news-genre {
@@ -1320,7 +1460,7 @@ address {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4;
-  color: #FD8558;
+  color: var(--primary-orange);
   margin-right: 10px;
 }
 .news-type:last-child {
@@ -1331,15 +1471,14 @@ address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #999999;
+  color: var(--about-us-text);
   margin-left: 30px;
 }
 
 .news-text {
   font-weight: 400;
-  font-size: 24px;
   line-height: 1.38;
-  color: #222222;
+  color: var(--smooth-black);
   margin-bottom: 36px;
 }
 
@@ -1347,19 +1486,12 @@ address {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.4;
-  color: #FD8558;
+  color: var(--primary-orange);
 }
 
 .contact-wrapper {
   display: flex;
-  flex-direction: row;
   margin-bottom: 115px;
-}
-
-.contact {
-  padding: 0 15px;
-  margin: 0 135px;
-  width: 333px;
 }
 
 .contact-title {
@@ -1372,72 +1504,64 @@ address {
 
 .contact-text {
   font-weight: 400;
-  font-size: 24px;
   line-height: 1.38;
-  color: #222222;
+  color: var(--smooth-black);
   margin-bottom: 45px;
 }
 
 .contact-link {
   font-weight: 400;
-  font-size: 24px;
   line-height: 1.38;
-  color: #222222;
+  color: var(--smooth-black);
 }
 .contact-link:hover, .contact-link:focus {
-  color: #FD8558;
+  color: var(--primary-orange);
 }
 
-#form-name, #form-email {
+.form-input {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #999999;
-  width: 338px;
-  height: 58px;
-  padding-left: 40px;
+  color: var(--about-us-text);
   padding-top: 18px;
   padding-bottom: 19px;
-  border: 1px solid #EEEEEE;
-  margin-bottom: 30px;
-  margin-right: 30px;
+  border: 1px solid var(--form-border);
 }
-#form-name:last-child, #form-email:last-child {
+.form-input:last-child {
   margin-right: 0;
 }
-#form-name:active, #form-name:focus, #form-name:hover, #form-email:active, #form-email:focus, #form-email:hover {
-  border: 1px solid #FD8558;
+.form-input:active, .form-input:focus, .form-input:hover {
+  border: 1px solid var(--primary-orange);
   outline: none;
 }
-#form-name:active::placeholder, #form-name:focus::placeholder, #form-name:hover::placeholder, #form-email:active::placeholder, #form-email:focus::placeholder, #form-email:hover::placeholder {
-  color: #FD8558;
+.form-input:active::placeholder, .form-input:focus::placeholder, .form-input:hover::placeholder {
+  color: var(--primary-orange);
 }
 
-#form-textarea {
+.form-textarea {
   display: block;
   box-sizing: border-box;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   text-indent: 0;
-  color: #999999;
-  padding: 20px 40px;
+  color: var(--about-us-text);
+  padding: 20px 0 20px 15px;
   resize: none;
-  border: 1px solid #EEEEEE;
-  margin-bottom: 65px;
+  border: 1px solid var(--form-border);
   width: 100%;
   height: 128px;
   overflow: auto;
   appearance: none;
 }
-#form-textarea:active, #form-textarea:focus, #form-textarea:hover {
-  border: 1px solid #FD8558;
+.form-textarea:active, .form-textarea:focus, .form-textarea:hover {
+  border: 1px solid var(--primary-orange);
   outline: none;
 }
-#form-textarea:active::placeholder, #form-textarea:focus::placeholder, #form-textarea:hover::placeholder {
-  color: #FD8558;
+.form-textarea:active::placeholder, .form-textarea:focus::placeholder, .form-textarea:hover::placeholder {
+  color: var(--primary-orange);
 }
-#form-textarea::placeholder {
+.form-textarea::placeholder {
   top: 0;
   left: 0;
 }
