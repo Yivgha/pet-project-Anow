@@ -502,16 +502,22 @@
                     </div>
                 </div>
                 <div>
-                    <form>
+                    <form id="contact-form" action="https://formsubmit.co/95b5e823ae373e97898f0e745e1d0df8"
+                        method="POST">
                         <div>
-                            <input type="text" id="form-name" placeholder="Your name*" required class="form-input">
-                            <input type="email" id="form-email" placeholder="Your e-mail*" required class="form-input">
+                            <input type="text" id="form-name" name="username" placeholder="Your name*" required
+                                class="form-input">
+                            <input type="email" id="form-email" name="usermail" placeholder="Your e-mail*" required
+                                class="form-input">
                         </div>
                         <div>
-                            <textarea type="textarea" id="form-textarea" placeholder="Your message*" required
-                                class="form-textarea"></textarea>
+                            <textarea type="textarea" id="form-textarea" name="usermessage" placeholder="Your message*"
+                                required class="form-textarea"></textarea>
                         </div>
-                        <button type="submit" onclick="return false;" class="btn">Send</button>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:1235/">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" onclick="form.submit()" class="btn">Send</button>
                     </form>
                 </div>
             </div>
