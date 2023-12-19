@@ -151,71 +151,66 @@
                 <a href="#team"><button type="button" class="btn">View more</button></a>
             </div>
             <p class="big-title-portfolio">works</p>
-            <div>
-                <ul class="gallery">
-                    <div class="areaA">
-                        <li class="gallery-small-item">
-                            <picture>
-                                <source srcset="./images/gallery-1-1x.jpg 1x, ./images/gallery-1-2x.jpg 2x"
-                                    media="(min-width: 1200px)" />
-                                <img src="./images/gallery-1-1x.jpg" alt="big and small bags" />
-                            </picture>
-                            <div class="gallery-overlay">
-                                <p class="gallery-text">Crazy Max</p>
-                                <input type="checkbox" class="checkbox" id="check" />
-                            </div>
-                        </li>
-                        <li class="gallery-small-item">
-                            <picture>
-                                <source srcset="./images/gallery-2-1x.jpg 1x, ./images/gallery-2-2x.jpg 2x"
-                                    media="(min-width: 1200px)" />
-                                <img src="./images/gallery-2-1x.jpg" alt="stylish house" />
-                            </picture>
-                            <div class="gallery-overlay">
-                                <p class="gallery-text">Stylish House</p>
-                                <input type="checkbox" class="checkbox" id="check" />
-                            </div>
-                        </li>
-                    </div>
-                    <div class="areaB">
-                        <li class="gallery-big-item">
-                            <picture>
-                                <source srcset="./images/gallery-3-1x.jpg 1x, ./images/gallery-3-2x.jpg 2x"
-                                    media="(min-width: 1200px)" />
-                                <img src="./images/gallery-3-1x.jpg" alt="oblique house" width="720px" height="720px" />
-                            </picture>
-                            <div class="gallery-overlay">
-                                <p class="gallery-text">Oblique House</p>
-                                <input type="checkbox" class="checkbox" id="check" />
-                            </div>
-                        </li>
-                    </div>
-                    <div class="areaC">
-                        <li class="gallery-small-item">
-                            <picture>
-                                <source srcset="./images/gallery-4-1x.jpg 1x, ./images/gallery-4-2x.jpg 2x"
-                                    media="(min-width: 1200px)" />
-                                <img src="./images/gallery-4-1x.jpg" alt="abstraction" />
-                            </picture>
-                            <div class="gallery-overlay">
-                                <p class="gallery-text">Differents</p>
-                                <input type="checkbox" class="checkbox" id="check" />
-                            </div>
-                        </li>
-                        <li class="gallery-small-item">
-                            <picture>
-                                <source srcset="./images/gallery-5-1x.jpg 1x, ./images/gallery-5-2x.jpg 2x"
-                                    media="(min-width: 1200px)" />
-                                <img src="./images/gallery-5-1x.jpg" alt="two bags" />
-                            </picture>
-                            <div class="gallery-overlay">
-                                <p class="gallery-text">Bag</p>
-                                <input type="checkbox" class="checkbox" id="check" />
-                            </div>
-                        </li>
-                    </div>
-                </ul>
-            </div>
+
+
+            <ul class="gallery">
+                <div class="areaA">
+                    <li class="gallery-small-item">
+                        <img srcset="./images/gallery-1-1x.jpg 480w, ./images/gallery-1-2x.jpg 768w, ./images/gallery-1-2x.jpg 1200w"
+                            sizes="(max-width: 1600px) 480px,
+                                                 768w" src="./images/gallery-1-2x.jpg" alt="big and small bags"
+                            class="about-img" />
+
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Crazy Max</p>
+                            <input type="checkbox" class="checkbox" id="check" />
+                        </div>
+                    </li>
+
+                    <li class="gallery-small-item">
+                        <img srcset="./images/gallery-2-1x.jpg 480w, ./images/gallery-2-2x.jpg 768w, ./images/gallery-2-2x.jpg 1200w"
+                            sizes="(max-width: 1600px) 480px,
+                                                                             768w" src="./images/gallery-2-2x.jpg"
+                            alt="stylish house" class="about-img" />
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Stylish House</p>
+                            <input type="checkbox" class="checkbox" id="check" />
+                        </div>
+                    </li>
+                </div>
+                <div class="areaB">
+                    <li class="gallery-big-item">
+                        <img srcset="./images/gallery-3-1x.jpg 480w, ./images/gallery-3-1x.jpg 768w, ./images/gallery-3-1x.jpg 1200w"
+                            sizes="(max-width: 1600px) 480px, 768w" src="./images/gallery-3-1x.jpg" alt="oblique house"
+                            class="about-img" />
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Oblique House</p>
+                            <input type="checkbox" class="checkbox" id="check" />
+                        </div>
+                    </li>
+                </div>
+                <div class="areaC">
+                    <li class="gallery-small-item">
+                        <img srcset="./images/gallery-4-1x.jpg 480w, ./images/gallery-4-2x.jpg 768w, ./images/gallery-4-2x.jpg 1200w"
+                            sizes="(max-width: 1600px) 480px,
+                    768w" src="./images/gallery-4-2x.jpg" alt="abstraction" class="about-img" />
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Differents</p>
+                            <input type="checkbox" class="checkbox" id="check" />
+                        </div>
+                    </li>
+                    <li class="gallery-small-item">
+                        <img srcset="/images/gallery-5-1x.jpg 480w, ./images/gallery-5-2x.jpg 768w, ./images/gallery-5-2x.jpg 1200w"
+                            sizes="(max-width: 1600px) 480px,
+                                                                                     768w"
+                            src="./images/gallery-5-2x.jpg" alt="two bags" class="about-img" />
+                        <div class="gallery-overlay">
+                            <p class="gallery-text">Bag</p>
+                            <input type="checkbox" class="checkbox" id="check" />
+                        </div>
+                    </li>
+                </div>
+            </ul>
 
         </section>
         <section id="team">
