@@ -8,19 +8,17 @@
 }
 .left-rectangle{
     position: absolute;
-    background: #F5F5F5;
+    background: var(--portfolio-decor-color);
     border-radius: 0px;
-    width: 606px;
+    width: 33%;
     height: 2px;
-    left: 39px;
 }
 .right-rectangle{
     position: absolute;
-    background: #F5F5F5;
+    background: var(--portfolio-decor-color);
     border-radius: 0px;
-    width: 606px;
+    width:33%;
     height: 2px;
-    right: 39px;
 }
 .portfolio-svg{
     position: absolute;
@@ -31,33 +29,26 @@
 .portfolio-review{
     display: flex;
     justify-content: space-between;
-    margin-right: 120px;
-    margin-left: 120px;
-    
 }
 
 .portfolio-title{
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.1;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #FD8558;
+    color: var(--primary-orange);
     margin-bottom: 8px;
 }
 
 .portfolio-text{
     font-weight: 400;
-    font-size: 32px;
     line-height: 1.2;
-    color: #333333;
+    color: var( --about-us-title);
 }
 
 .big-title-portfolio{
     font-weight: 400;
-    font-size: 200px;
     line-height: 0.9;
     text-align: right;
-     color: #F7F7F7;
-     margin-right: 30px;
+     color: var(--big-section-title);
 }

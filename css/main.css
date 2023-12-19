@@ -7,6 +7,7 @@
   --about-us-text: #999999;
   --big-section-title: #F7F7F7;
   --quote-text: #CACACA;
+  --portfolio-decor-color: #F5F5F5;
 }
 
 body, header {
@@ -140,11 +141,11 @@ body, header {
     gap: 30px;
     padding: 0 105px;
   }
-  .about-heading {
+  .about-heading, .portfolio-title {
     font-size: 14px;
     margin-bottom: 34px;
   }
-  .about-name {
+  .about-name, .portfolio-text {
     font-size: 40px;
   }
   .about-article {
@@ -176,6 +177,20 @@ body, header {
   }
   .about-position {
     font-size: 12px;
+  }
+  .left-rectangle {
+    left: 85px;
+  }
+  .right-rectangle {
+    right: 85px;
+  }
+  .portfolio-review {
+    margin-right: 120px;
+    margin-left: 120px;
+  }
+  .big-title-portfolio {
+    font-size: 200px;
+    margin-right: 30px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1059px) {
@@ -262,11 +277,11 @@ body, header {
     gap: 40px;
     padding: 0 65px;
   }
-  .about-heading {
+  .about-heading, .portfolio-title {
     font-size: 14px;
     margin-bottom: 24px;
   }
-  .about-name {
+  .about-name, .portfolio-text {
     font-size: 30px;
   }
   .about-article {
@@ -298,6 +313,20 @@ body, header {
   }
   .about-position {
     font-size: 12px;
+  }
+  .left-rectangle {
+    left: 35px;
+  }
+  .right-rectangle {
+    right: 35px;
+  }
+  .portfolio-review {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  .big-title-portfolio {
+    font-size: 200px;
+    margin-right: 10px;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -339,7 +368,7 @@ body, header {
   }
   .btn {
     height: 46px;
-    width: 154px;
+    width: 134px;
   }
   .about-list {
     flex-direction: column;
@@ -366,11 +395,11 @@ body, header {
     gap: 10px;
     padding: 0 15px;
   }
-  .about-heading {
+  .about-heading, .portfolio-title {
     font-size: 10px;
     margin-bottom: 14px;
   }
-  .about-name {
+  .about-name, .portfolio-text {
     font-size: 25px;
     margin-bottom: 15px;
   }
@@ -404,6 +433,19 @@ body, header {
   }
   .about-position {
     font-size: 10px;
+  }
+  .left-rectangle {
+    left: 15px;
+  }
+  .right-rectangle {
+    right: 15px;
+  }
+  .portfolio-review {
+    margin: 0 15px;
+  }
+  .big-title-portfolio {
+    font-size: 100px;
+    margin-right: 5px;
   }
 }
 .btn {
@@ -779,20 +821,18 @@ address {
 
 .left-rectangle {
   position: absolute;
-  background: #F5F5F5;
+  background: var(--portfolio-decor-color);
   border-radius: 0px;
-  width: 606px;
+  width: 33%;
   height: 2px;
-  left: 39px;
 }
 
 .right-rectangle {
   position: absolute;
-  background: #F5F5F5;
+  background: var(--portfolio-decor-color);
   border-radius: 0px;
-  width: 606px;
+  width: 33%;
   height: 2px;
-  right: 39px;
 }
 
 .portfolio-svg {
@@ -805,34 +845,28 @@ address {
 .portfolio-review {
   display: flex;
   justify-content: space-between;
-  margin-right: 120px;
-  margin-left: 120px;
 }
 
 .portfolio-title {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #FD8558;
+  color: var(--primary-orange);
   margin-bottom: 8px;
 }
 
 .portfolio-text {
   font-weight: 400;
-  font-size: 32px;
   line-height: 1.2;
-  color: #333333;
+  color: var(--about-us-title);
 }
 
 .big-title-portfolio {
   font-weight: 400;
-  font-size: 200px;
   line-height: 0.9;
   text-align: right;
-  color: #F7F7F7;
-  margin-right: 30px;
+  color: var(--big-section-title);
 }
 
 .big-title-testiimonials {
