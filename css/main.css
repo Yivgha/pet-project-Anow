@@ -290,7 +290,7 @@ body, header {
     font-size: 24px;
   }
   form {
-    width: 55vw;
+    width: 45vw;
     padding: 0 35px;
   }
   .form-input {
@@ -343,6 +343,10 @@ body, header {
   .icon, .hamburger-container, .hamburger-nav {
     display: none;
     visibility: hidden;
+  }
+  .address-map {
+    width: 400px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1059px) {
@@ -621,6 +625,10 @@ body, header {
     display: none;
     visibility: hidden;
   }
+  .address-map {
+    width: 250px;
+    height: 250px;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .nav-list {
@@ -880,6 +888,9 @@ body, header {
   .copyright {
     margin-top: 50px;
     padding: 0 40px;
+  }
+  .address-map {
+    width: 95vw;
   }
 }
 .btn {
@@ -1627,7 +1638,20 @@ address {
   font-weight: 400;
   line-height: 1.38;
   color: var(--smooth-black);
-  margin-bottom: 45px;
+  margin-bottom: 15px;
+}
+
+.address-map {
+  margin-bottom: 5px;
+  border: 1px solid var(--smooth-black);
+}
+
+.address-map-title {
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--primary-orange);
+  font-style: italic;
 }
 
 .contact-link {

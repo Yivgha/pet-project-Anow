@@ -232,7 +232,7 @@ padding: 0 35px;
 font-size: 24px;
 }
 form{
-  width: 55vw;
+  width: 45vw;
   padding: 0 35px;
 }
 .form-input{
@@ -285,6 +285,10 @@ form{
 .icon, .hamburger-container, .hamburger-nav{
   display: none;
   visibility: hidden;
+}
+.address-map{
+    width: 400px;
+     height: 250px; 
 }
 }
 // TABLET
@@ -566,6 +570,10 @@ form{
   display: none;
   visibility: hidden;
 }
+.address-map{
+    width: 250px;
+     height: 250px; 
+}
 }
 // MOBILE
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -828,5 +836,8 @@ form{
 .copyright{
       margin-top: 50px;
       padding: 0 40px;
+}
+.address-map{
+    width: 95vw;
 }
 }

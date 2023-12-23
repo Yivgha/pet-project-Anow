@@ -14,7 +14,18 @@
     font-weight: 400;
     line-height: 1.38;
     color: var(--smooth-black);
-    margin-bottom: 45px;
+    margin-bottom: 15px;
+}
+.address-map{
+    margin-bottom: 5px;
+    border: 1px solid var(--smooth-black);
+}
+.address-map-title{
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--primary-orange);
+    font-style: italic;
 }
 .contact-link{
     font-weight: 400;
