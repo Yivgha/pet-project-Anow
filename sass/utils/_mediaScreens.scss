@@ -1,7 +1,7 @@
 // PC
 @media screen and (min-width: 1060px) {
   .nav-list {
-    margin-left: 210px;
+    margin-left: 270px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -822,6 +822,7 @@ form{
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
+  gap: 10px;
 }
 .home-list{
   flex-direction: column;

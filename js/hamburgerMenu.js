@@ -10,10 +10,12 @@ function toggleMenu() {
     menu.style.display = "none";
     icon.className = "fa fa-bars";
     menu.classList.remove("open");
+    icon.style.position = "absolute";
   } else {
     x.style.display = "flex";
     menu.style.display = "flex";
     icon.className = "fa fa-times";
+    icon.style.position = "fixed";
     menu.classList.add("open");
   }
 }
@@ -23,6 +25,7 @@ function closeMenu() {
   menu.style.display = "none";
   icon.className = "fa fa-bars";
   menu.classList.remove("open");
+  icon.style.position = "absolute";
 }
 
 menu.addEventListener("click", closeMenu);

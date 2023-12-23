@@ -8,9 +8,9 @@ align-items: center;
 justify-content: space-between;
 }
 .open{
-   z-index: 13;
+   z-index: 16;
    padding: 30px 10px 0 25px;
- width: 33vw;
+ width: 45vw;
   height: 100%;
   background-color: var(--quote-text);
 }
@@ -19,9 +19,9 @@ justify-content: space-between;
   display: none;
   flex-direction: column;
 gap: 35px;
-position: absolute;
-top: 50px;
-
+position: fixed;
+top: 60px;
+right: 27vw;
 }
 
 .hamburger-container a {
@@ -36,13 +36,14 @@ top: 50px;
 
 .icon {
   background-color: transparent;
+  color: var(--smooth-black);
   display: inline-block;
   position: absolute;
   right: 10px;
-  top: 10px;
+  top: 19px;
  width: 30px;
   height: 30px;
-  z-index: 14;
+  z-index: 18;
   cursor: pointer;
   border-radius: 10px;
   outline: none;
@@ -51,6 +52,6 @@ top: 50px;
 
 .hamburger-container a:hover {
   background-color: #ddd;
-  color: black;
+  color: var(--smooth-black);
 }
 
