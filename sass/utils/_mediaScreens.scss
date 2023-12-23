@@ -282,6 +282,10 @@ form{
 .copyright{
       margin-top: 60px;
 }
+.icon, .hamburger-container, .hamburger-nav{
+  display: none;
+  visibility: hidden;
+}
 }
 // TABLET
 @media screen and (min-width: 768px) and (max-width: 1059px) {
@@ -557,6 +561,10 @@ form{
 .copyright{
       margin-top: 50px;
       padding: 0 40px;
+}
+.icon, .hamburger-container, .hamburger-nav{
+  display: none;
+  visibility: hidden;
 }
 }
 // MOBILE

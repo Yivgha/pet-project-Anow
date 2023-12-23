@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
-<body>
+<body style="position: relative">
     <header>
         <nav class="nav-container">
             <a href="./index.html" class="logo">anov</a>
@@ -29,7 +30,21 @@
                 <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
             </ul>
         </nav>
+
     </header>
+    <button type="button" class="icon" onclick="toggleMenu()">
+        <i id="toggleIcon"></i>
+    </button>
+    <div class="hamburger-container">
+        <div id="myLinks" class="hamburger-nav">
+            <a href="#portfolio" class="nav-link">demos</a>
+            <a href="#about" class="nav-link">about us</a>
+            <a href="#portfolio" class="nav-link">portfolio</a>
+            <a href="#team" class="nav-link">team</a>
+            <a href="#news" class="nav-link">news</a>
+            <a href="#contact" class="nav-link">contact</a>
+        </div>
+    </div>
     <main>
         <section class="hero">
             <div class="hero__image">
@@ -606,6 +621,7 @@
     </footer>
     <script defer src="./js/skillbar.js"></script>
     <script defer src="./js/scrollUpBtn.js"></script>
+    <script defer src="./js/hamburgerMenu.js"></script>
 </body>
 
 </html>
