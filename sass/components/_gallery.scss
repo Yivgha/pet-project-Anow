@@ -6,6 +6,10 @@
     display: flex;
     align-content: stretch;
 }
+.gallery-small-item{
+    background-color: var(--about-us-title);
+    border-radius: 11px;
+}
 
 .gallery-overlay{
     display: flex;
