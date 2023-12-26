@@ -2172,4 +2172,142 @@ address {
     grid-column: 1;
     grid-row: 1;
   }
+}
+.europe-main {
+  padding: 90px 20px;
+  min-height: 100vh;
+}
+@media screen and (max-width: 1090px) {
+  .europe-main {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .europe-main {
+    padding-bottom: 30px;
+  }
+}
+
+.europe-title {
+  font-size: 30px;
+  color: var(--smooth-black);
+  margin-bottom: 30px;
+}
+
+.europe-text {
+  font-size: 16px;
+  color: var(--smooth-black);
+  margin-bottom: 30px;
+}
+
+.europe-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.large {
+  grid-column: auto/span 2;
+  grid-row: auto/span 3;
+}
+
+.big-height {
+  grid-column: auto/span 1;
+  grid-row: auto/span 2;
+}
+
+.europe-grid-section {
+  overflow: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  max-width: 100%;
+  max-height: 75vh;
+  overflow-y: scroll;
+}
+.europe-grid-section::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.europe-grid-wrapper {
+  display: grid;
+  grid-auto-flow: dense;
+  gap: 15px;
+  place-content: center;
+}
+.europe-grid-wrapper .europe-card {
+  border-radius: 25px;
+  box-shadow: -2px 4px 15px rgba(0, 0, 0, 0.26);
+}
+@media screen and (max-width: 470px) {
+  .europe-grid-wrapper .europe-card {
+    grid-column: auto/span 2;
+    grid-row: auto/span 3;
+  }
+}
+.europe-grid-wrapper .europe-card h2 {
+  font-size: 18px;
+}
+@media screen and (max-width: 470px) {
+  .europe-grid-wrapper .europe-card h2 {
+    font-size: 16px;
+  }
+}
+.europe-grid-wrapper .europe-card p {
+  font-size: clamp(0.9rem, 0.875rem + 0.125vw, 1rem);
+  line-height: 1.4;
+}
+@media screen and (max-width: 470px) {
+  .europe-grid-wrapper .europe-card p {
+    font-size: 13px;
+  }
+}
+.europe-grid-wrapper .europe-card .europe-img {
+  border-radius: 25px;
+}
+.europe-grid-wrapper .europe-card .europe-card__img {
+  position: relative;
+  height: 100%;
+}
+.europe-grid-wrapper .europe-card .europe-card__img .europe-card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  color: var(--primary-white);
+  padding: clamp(0.938rem, 5vw, 1.563rem);
+  background: var(--primary-text-color);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.57) 0%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.europe-grid-wrapper .europe-card .europe-card__img span {
+  position: absolute;
+  top: 25px;
+  left: min(2vmax, 1.563rem);
+  color: var(--primary-orange);
+  background: var(--primary-white);
+  border-radius: 50px;
+  padding: 2px 8px 2px 6px;
+  display: flex;
+  box-shadow: 0px 1px 20px var(--primary-text-color);
+}
+@media screen and (max-width: 690px) {
+  .europe-grid-wrapper .europe-card .europe-card__img span {
+    top: 20px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .europe-grid-wrapper .europe-card .europe-card__img span {
+    top: 15px;
+  }
+}
+.europe-grid-wrapper .europe-card .europe-card__img span svg {
+  fill: var(--primary-orange);
+  width: 20px;
+  margin-right: 2px;
 }/*# sourceMappingURL=main.css.map */

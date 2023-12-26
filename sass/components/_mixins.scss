@@ -4,3 +4,9 @@
     letter-spacing: $ls;
     font-weight: $fw;
 }
+
+@mixin mQ($px) {
+  @media screen and (max-width: $px) {
+    @content;
+  }
+}

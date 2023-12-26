@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid gallery</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+    <header class="news-page__header">
+        <nav class="nav-container">
+            <a href="https://yivgha.github.io/pet-project-Anow/index.html" class="logo">anov</a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="https://yivgha.github.io/pet-project-Anow/index.html#portfolio" class="nav-link">demos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://yivgha.github.io/pet-project-Anow/index.html#about" class="nav-link">about us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://yivgha.github.io/pet-project-Anow/index.html#portfolio"
+                        class="nav-link">portfolio</a>
+                </li>
+                <li class="nav-item"><a href="https://yivgha.github.io/pet-project-Anow/index.html#team"
+                        class="nav-link">team</a></li>
+                <li class="nav-item"><a href="https://yivgha.github.io/pet-project-Anow/index.html#news"
+                        class="nav-link">news</a></li>
+                <li class="nav-item">
+                    <a href="https://yivgha.github.io/pet-project-Anow/index.html#contact" class="nav-link">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HAMBURGER -->
+    <button type="button" class="icon" onclick="toggleMenu()">
+        <i id="toggleIcon"></i>
+    </button>
+    <div class="hamburger-container">
+        <div id="myLinks" class="hamburger-nav">
+            <a href="#portfolio" class="nav-link">demos</a>
+            <a href="#about" class="nav-link">about us</a>
+            <a href="#portfolio" class="nav-link">portfolio</a>
+            <a href="#team" class="nav-link">team</a>
+            <a href="#news" class="nav-link">news</a>
+            <a href="#contact" class="nav-link">contact</a>
+        </div>
+    </div>
+    <main class="europe-main">
+        <section>
+            <h1 class="europe-title"> Grid gallery</h1>
+            <p class="europe-text">We present you photos of architecture from european cities. Best views of Paris,
+                Vienna, German, Italia and Niederlande made by
+                talented artists.</p>
+        </section>
+        <!-- GRID GALLERY -->
+        <section class="europe-grid-section">
+            <div class="europe-grid-wrapper">
+                <div class="europe-card">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-1-1x.jpg" alt="Vienna" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.5</span>
+                        <div class="europe-card__overlay">
+                            <h2>Vienna</h2>
+                            <p>Panoramic view</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card big-height">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-2-1x.jpg" alt="Milano" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>5</span>
+                        <div class="europe-card__overlay">
+                            <h2>Milano</h2>
+                            <p>Green future is here</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card large">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-3-1x.jpg" alt="Delft, Niederlande" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.8</span>
+                        <div class="europe-card__overlay">
+                            <h2>Delft</h2>
+                            <p>Marketplace in Niederlande</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-4-1x.jpg" alt="Paris" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.3</span>
+                        <div class="europe-card__overlay">
+                            <h2>Paris</h2>
+                            <p>Eiffel Tower beside Seine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-5-1x.jpg" alt="Hallstatt" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.7</span>
+                        <div class="europe-card__overlay">
+                            <h2>Hallstatt</h2>
+                            <p>Autumn in Austria</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card big-height">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-6-1x.jpg" alt="Rothenburg ob der Tauber, Germany"
+                            class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.7</span>
+                        <div class="europe-card__overlay">
+                            <h2>Rothenburg ob der Tauber</h2>
+                            <p>Peaceful city in Germany</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card large">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-7-1x.jpg" alt="Budapest, Hungary" class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.8</span>
+                        <div class="europe-card__overlay">
+                            <h2>Budapest</h2>
+                            <p>Night in capital of Hungary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="europe-card ">
+                    <div class="europe-card__img">
+                        <img src="./images/cities/city-8-1x.jpg" alt="Arc de Triomphe, Paris, France"
+                            class="europe-img">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                            </svg>4.4</span>
+                        <div class="europe-card__overlay">
+                            <h2>Arc de Triomphe</h2>
+                            <p>Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SCROLL UP BUTTON -->
+        <button id="myBtn" class="scroll-up-btn" title="Go to top">
+            <svg class="btn-up-icon">
+                <use href="./images/icons.svg#icon-up-arrow"></use>
+            </svg>
+        </button>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer" class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-logo-column">
+                <a href="https://yivgha.github.io/pet-project-Anow/index.html" class="footer-logo">anow</a>
+                <address>
+                    <ul class="footer-contacts-list">
+                        <li class="footer-contacts">
+                            <a href="tel:+071281979555" class="footer-link">+ (0712) 819 79 555
+                            </a>
+                        </li>
+                        <li class="footer-contacts">
+                            <span class="footer-span"> | M: </span>
+                            <a href="mailto:info@example.com" class="footer-link">info@example.com</a>
+                        </li>
+                    </ul>
+                </address>
+                <h3 class="footer-socials-title">Our socials:</h3>
+                <div class="footer-socials">
+                    <a class="footer-socials-link" href="www.facebook.com"><svg class="footer-socials-icon">
+                            <use href="./images/icons.svg#icon-facebook2"></use>
+                        </svg></a>
+                    <a class="footer-socials-link" href="https://web.telegram.org/"><svg class="footer-socials-icon">
+                            <use href="./images/icons.svg#icon-telegram"></use>
+                        </svg></a>
+                    <a class="footer-socials-link" href="https://www.youtube.com/"><svg class="footer-socials-icon">
+                            <use href="./images/icons.svg#icon-youtube"></use>
+                        </svg></a>
+                </div>
+            </div>
+            <div class="blog-lists">
+                <div class="home-list">
+                    <h3 class="footer-title">Home</h3>
+                    <ul>
+                        <li class="blog-list-item">
+                            <a href="https://yivgha.github.io/pet-project-Anow/index.html#portfolio"
+                                class="footer-list-text">Portfolio</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="https://yivgha.github.io/pet-project-Anow/index.html#team"
+                                class="footer-list-text">Team</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="https://yivgha.github.io/pet-project-Anow/index.html#about"
+                                class="footer-list-text">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="home-list">
+                    <h3 class="footer-title">Portfolio</h3>
+                    <ul>
+                        <li class="blog-list-item">
+                            <a href="https://yivgha.github.io/pet-project-Anow/index.html#portfolio"
+                                class="footer-list-text">Main Portfolio</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="./europe.html" class="footer-list-text">Grid Portfolio</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="./lightbox.html" class="footer-list-text">Lightbox Gallery</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="#" onclick="return false;" class="footer-list-text">Service Details</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="home-list">
+                    <h3 class="footer-title">Blog</h3>
+                    <ul>
+                        <li class="blog-list-item">
+                            <a href="./news.html#news1" class="footer-list-text">Insights </a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="./news.html#news2" class="footer-list-text">Opportunities</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="./news.html#news3" class="footer-list-text">Ways to increase</a>
+                        </li>
+                        <li class="blog-list-item">
+                            <a href="#" class="footer-list-text">Licensing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="copyright">
+                &#169; Anow. All Rights Reserved 2022 — Created by
+                <span><a href="https://github.com/Yivgha/pet-project-Anow" class="copyright-link">Yivgha.
+                    </a></span>
+            </p>
+        </div>
+    </footer>
+    <script defer src="./js/scrollUpBtn.js"></script>
+    <script defer src="./js/hamburgerMenu.js"></script>
+</body>
+
+</html>
