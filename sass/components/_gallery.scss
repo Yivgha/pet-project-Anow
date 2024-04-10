@@ -1,10 +1,15 @@
 .gallery{
-    display: flex;
+    display: flex; 
+      width: 100%;
+  align-self: stretch;
 }
-
+.areaA, .areaB, .areaC{
+    align-self: stretch;
+}
 .areaB{
     display: flex;
     align-content: stretch;
+    align-self: stretch;
 }
 .gallery-small-item{
     background-color: var(--about-us-title);
